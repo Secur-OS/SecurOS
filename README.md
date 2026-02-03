@@ -85,15 +85,15 @@ Recommended for testing and evaluation.
 <summary>Click to expand screenshots</summary>
 
 <p align="center">
-  <img src="img/showcase1.png">
+  <img src="https://raw.githubusercontent.com/Secur-OS/SecurOS/main/img/showcase1.png">
 </p>
 
 <p align="center">
-  <img src="img/showcase2.png">
+  <img src="https://raw.githubusercontent.com/Secur-OS/SecurOS/main/img/showcase2.png">
 </p>
 
 <p align="center">
-  <img src="img/showcase3.png">
+  <img src="https://raw.githubusercontent.com/Secur-OS/SecurOS/main/img/showcase3.png">
 </p>
 
 </details>
