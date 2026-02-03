@@ -1,7 +1,7 @@
 <h1 align="center"><code>SecurOS</code> Secure Arch Linux Operating System</h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PhilipPanda/SecurOS/main/img/logo.png">
+  <img src="https://raw.githubusercontent.com/Secur-OS/SecurOS/main/img/logo.png">
 </p>
 
 <h2 align="center">
