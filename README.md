@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Arch%20Linux-Based-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white">
   <img src="https://img.shields.io/badge/Security%20Focused-0A2540?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Linux-Platform-111827?style=for-the-badge&logo=linux&logoColor=white">
+  <img src="https://img.shields.io/badge/Linux-Arch-111827?style=for-the-badge&logo=linux&logoColor=white">
   <a href="https://github.com/Secur-OS">
     <img src="https://img.shields.io/badge/GitHub-Secur--OS-181717?style=for-the-badge&logo=github&logoColor=white">
   </a>
