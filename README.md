@@ -80,18 +80,15 @@ Recommended for testing and evaluation.
 ---
 
 ## Showcase
-
 <details>
-<summary>Click to expand screenshots</summary>
+<summary>Expand to see images.</summary>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Secur-OS/SecurOS/main/img/showcase1.png">
 </p>
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/Secur-OS/SecurOS/main/img/showcase2.png">
 </p>
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/Secur-OS/SecurOS/main/img/showcase3.png">
 </p>
