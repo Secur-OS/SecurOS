@@ -1,61 +1,100 @@
-<h1 align="center"><code>SecurOS</code> Secure Arch Linux Operating System</h1>
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Secur-OS/SecurOS/main/img/logo.png">
+  <a href="https://securos.org">
+    <img src="https://raw.githubusercontent.com/Secur-OS/SecurOS/main/img/logo.png" alt="SecurOS logo">
+  </a>
 </p>
 
-<h2 align="center">
-  <a href="https://securos.org">Website</a> | <a href="https://templeenterprise.com">Company</a> | <a href="https://securos.org">Install</a>
-</h2>
+<p align="center">
+  <img src="https://img.shields.io/badge/Arch%20Linux-Based-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white">
+  <img src="https://img.shields.io/badge/Security%20Focused-0A2540?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Linux-Platform-111827?style=for-the-badge&logo=linux&logoColor=white">
+  <a href="https://github.com/Secur-OS">
+    <img src="https://img.shields.io/badge/GitHub-Secur--OS-181717?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+  <img src="https://img.shields.io/badge/Status-In%20Development-6B7280?style=for-the-badge">
+</p>
 
------
+---
 
+### **SecurOS** is a secure Arch based Linux distribution that comes pre-installed with the most popular pen-test and cyber-security tools. 
 
+---
 
-**<p align="center">Keep in mind this Operating System is currently in development.</p>**
+> ⚠️ **Note:** SecurOS is currently under active development.  
+> Features, defaults, and tooling are subject to change.
+>
 
-<h1 align="center"> For Virtual Machines </h1>
+---
 
-- You need Virtual Box / VMWare / Qemu.
-- Download the ISO,
-- Create a new Arch 64-bit VM.
-- Recommended 16 core processor & 8 gb of ram
+## Installation
 
+### Virtual Machines
 
-<h1 align="center"> For Flashing On PC </h1>
+Recommended for testing and evaluation.
 
-- You need a usb stick "preferably 4gb".
-- Download the ISO File.
-- Flash the ISO File using Belena Etcher / Rufus on your usb stick.
-- Recommended 16 core processor & 6 gb of ram
+**Supported hypervisors**
+- VirtualBox
+- VMware
+- QEMU / KVM
 
+**Steps**
+1. Download the ISO
+2. Create a new **Arch Linux (64-bit)** virtual machine
+3. Attach the ISO and boot
 
------
-<h1 align="center"> Default User Information</h1>
+**Recommended resources**
+- CPU: 4–16 cores
+- RAM: 6–8 GB
+- Storage: 40 GB+
 
-- Default username: securos
-- Default password: securos
------
+---
 
-<br>
-<h2 align="center">Info</h2>
-SecurOS is an advanced operating system built upon the Arch platform, specifically designed and optimized for the fields of penetration testing (pentesting) and cybersecurity. This specialized operating system is tailored to meet the unique needs and demands of security professionals and ethical hackers who are tasked with identifying vulnerabilities, assessing the robustness of systems, and ensuring the protection of sensitive data.
-<br>
+### Bare Metal (Physical Installation)
 
-<h1 align="center"> Showcase</h1>
+**Requirements**
+- USB flash drive (4 GB or larger)
+- ISO image
+- Flashing tool (Balena Etcher / Rufus)
+
+**Steps**
+1. Download the ISO
+2. Flash it to the USB drive
+3. Boot the target system from USB
+
+**Recommended resources**
+- CPU: 4+ cores
+- RAM: 6 GB+
+- UEFI system preferred
+
+---
+
+## Default Credentials
+
+> ⚠️ Change immediately after installation.
+
+| Field | Value |
+|------|------|
+| Username | `securos` |
+| Password | `securos` |
+
+---
+
+## Showcase
+
 <details>
-<summary>Expand to see images.</summary>
+<summary>Click to expand screenshots</summary>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PhilipPanda/SecurOS/main/img/showcase1.png">
+  <img src="img/showcase1.png">
 </p>
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PhilipPanda/SecurOS/main/img/Showcase2.png">
+  <img src="img/showcase2.png">
 </p>
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PhilipPanda/SecurOS/main/img/Showcase3.png">
+  <img src="img/showcase3.png">
 </p>
 
 </details>
-
 
