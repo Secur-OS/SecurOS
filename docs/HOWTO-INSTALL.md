@@ -1,61 +1,96 @@
+# FILE: docs/HOWTO-INSTALL.md
+
 # SecurOS Installation Guide
 
-This guide provides detailed, step-by-step instructions for installing SecurOS.
+This document explains how to boot and install SecurOS.
+
+---
 
 ## Prerequisites
 
-Before the installation, ensure you have the following essentials ready:
+You will need:
+- A physical machine or virtual machine capable of running 64-bit Linux
+- The latest SecurOS ISO from https://securos.org
+- A USB flash drive (4 GB or larger) or a virtual machine
+- Access to BIOS or UEFI settings for bare-metal installation
 
-- A computer or a virtual machine where you intend to install SecurOS.
-- A USB flash drive with a capacity of at least 4GB and the SecurOS ISO file, which can be obtained from the [official website](https://securos.org).
-- Access to your computer's BIOS or UEFI settings to modify the boot order.
+---
 
-## Installation Steps
+## Creating a Bootable USB Drive
 
-### Creating a Bootable USB Drive
+### Linux
 
-1. Start by downloading the latest SecurOS ISO from the [official website](https://securos.org).
+1. Download the SecurOS ISO
+2. Insert the USB drive
+3. Identify the device using lsblk
+4. Write the ISO using dd
 
-2. Insert your USB flash drive into your computer.
+Command:
+sudo dd if=securos_latest.iso of=/dev/sdX bs=4M status=progress oflag=sync
 
-3. To create a bootable USB drive, you can use `dd` on Linux or Rufus on Windows. For example, on Linux, use the following command:
+Replace /dev/sdX with the correct device. All data on the USB drive will be erased.
 
-`shell
-sudo dd if=secur_os_latest.iso of=/dev/sdX bs=4M status=progress`
+---
 
-- Replace /dev/sdX with the actual device name of your USB drive.
-## Setting Up SecurOS in a Virtual Machine
+### Windows
 
-    1. Download the latest SecurOS ISO from https://securos.org.
+Use Rufus or Balena Etcher:
+1. Select the SecurOS ISO
+2. Select the USB device
+3. Flash the image
+4. Safely eject the USB drive
 
-    2. If you are using a virtualization platform such as VirtualBox, VMware, or QEMU, insert the downloaded ISO file.
+---
 
-    3. Choose the "Arch 64-bit" template in your virtualization software to create a new virtual machine.
+## Virtual Machine Installation
 
-    4. Follow the specific steps provided by your virtual machine software to complete the setup.
+Supported platforms:
+- VirtualBox
+- VMware
+- QEMU / KVM
 
-## The Installation Process
+Steps:
+1. Create a new virtual machine
+2. Select Arch Linux (64-bit)
+3. Attach the SecurOS ISO
+4. Allocate at least 6 GB RAM and 4 CPU cores
+5. Boot the virtual machine
 
-    1. Once you have created your bootable USB drive or set up SecurOS in your virtual machine, it's time to start the installation process.
+---
 
-    2. Begin by restarting your computer and entering the BIOS or UEFI settings.
+## Booting SecurOS
 
-    3. Modify the boot order to prioritize the USB drive or virtual machine, ensuring that your computer boots from the desired medium.
+1. Boot from the USB drive or virtual machine
+2. The GRUB menu will appear
+3. Select a SecurOS boot option
+4. Wait for the live environment to load
 
-    4. Save your changes and exit the BIOS or UEFI settings.
+---
 
-    5. Now boot into SecurOS
+## Installing to Disk
 
-    6. Select an option from the grub boot loader.
+If you wish to install SecurOS permanently, follow the installer provided in the live environment or the official installation workflow.
 
-    7. Let SecurOS do its thing and you'r ready.
+Installing SecurOS may overwrite existing operating systems.
 
-## Post-Installation Setup
+---
 
-    1. Log in using the default user account [ Username : securos ] [ Password : securos ]
+## Post-Installation Steps
 
-    2. After initial login, update your system using the package manager, and install any essential drivers or software.
+1. Log in using the default credentials:
+   Username: securos
+   Password: securos
 
-    3. Tailor your system to meet your specific security requirements, configuring as needed.
+2. Change the password:
+passwd
 
-Congratulations! You have successfully installed SecurOS on your computer or virtual machine. Enjoy the enhanced security features this Linux distribution has to offer.
+3. Update the system:
+sudo pacman -Syu
+
+4. Configure networking, drivers, and tools as required.
+
+---
+
+## Completion
+
+SecurOS is now ready for use in authorized security testing and research environments.
