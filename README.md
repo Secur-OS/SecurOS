@@ -7,11 +7,10 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Arch%20Linux-Based-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white">
   <img src="https://img.shields.io/badge/Security%20Focused-0A2540?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Linux-Arch-111827?style=for-the-badge&logo=linux&logoColor=white">
+  <img src="https://img.shields.io/badge/Status-In%20Development-6B7280?style=for-the-badge">
   <a href="https://github.com/Secur-OS">
     <img src="https://img.shields.io/badge/GitHub-Secur--OS-181717?style=for-the-badge&logo=github&logoColor=white">
   </a>
-  <img src="https://img.shields.io/badge/Status-In%20Development-6B7280?style=for-the-badge">
 </p>
 
 ---
@@ -28,49 +27,19 @@
 
 ## Installation
 
-### Virtual Machines
+SecurOS is distributed as a **live ISO**.
 
-Recommended for testing and evaluation.
+You can run it:
+- in a virtual machine (VirtualBox, VMware, QEMU/KVM)
+- on bare metal (UEFI recommended)
 
-**Supported hypervisors**
-- VirtualBox
-- VMware
-- QEMU / KVM
-
-**Steps**
-1. Download the ISO
-2. Create a new **Arch Linux (64-bit)** virtual machine
-3. Attach the ISO and boot
-
-**Recommended resources**
-- CPU: 4–16 cores
-- RAM: 6–8 GB
-- Storage: 40 GB+
-
----
-
-### Bare Metal (Physical Installation)
-
-**Requirements**
-- USB flash drive (4 GB or larger)
-- ISO image
-- Flashing tool (Balena Etcher / Rufus)
-
-**Steps**
-1. Download the ISO
-2. Flash it to the USB drive
-3. Boot the target system from USB
-
-**Recommended resources**
-- CPU: 4+ cores
-- RAM: 6 GB+
-- UEFI system preferred
+Simply boot the ISO and follow the on-screen options.
 
 ---
 
 ## Default Credentials
 
-> ⚠️ Change immediately after installation.
+> ⚠️ **Change immediately after installation**
 
 | Field | Value |
 |------|------|
@@ -80,8 +49,9 @@ Recommended for testing and evaluation.
 ---
 
 ## Showcase
+
 <details>
-<summary>Expand to see images.</summary>
+<summary>Expand to see images</summary>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Secur-OS/SecurOS/main/img/showcase1.png">
@@ -94,4 +64,3 @@ Recommended for testing and evaluation.
 </p>
 
 </details>
-
