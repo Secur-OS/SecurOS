@@ -59,16 +59,28 @@ Rectangle {
 
 	Column {
 		id: terminalForm
-		spacing: 0
+		spacing: 12
+		anchors.centerIn: parent
 
 		visible: false
 
-		FKeyDesc {
-			id: fKeyDesc
+		Image {
+			id: logo
+			source: "logo.png"
+			width: 80
+			height: 80
+			anchors.horizontalCenter: parent.horizontalCenter
+			fillMode: Image.PreserveAspectFit
+			smooth: true
 		}
 
 		TermLabel {
-			text: `${proxy.hostName} sddm\n`
+			text: "SecurOS\n"
+			font.pointSize: config.fontSize + 2
+		}
+
+		FKeyDesc {
+			id: fKeyDesc
 		}
 
 		Login {

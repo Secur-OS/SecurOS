@@ -40,7 +40,7 @@ Column {
 		spacing: 0
 
 		TermLabel {
-			text: `${proxy.hostName} login: `
+			text: "SecurOS login: "
 		}
 
 		TermInput {
