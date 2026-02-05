@@ -54,13 +54,13 @@ Simply boot the ISO and follow the on-screen options.
 <summary>Expand to see images</summary>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Secur-OS/SecurOS/main/img/showcase11.png">
+  <img src="https://raw.githubusercontent.com/Secur-OS/SecurOS/main/img/showcase1.png">
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Secur-OS/SecurOS/main/img/Showcase21.png">
+  <img src="https://raw.githubusercontent.com/Secur-OS/SecurOS/main/img/Showcase2.png">
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Secur-OS/SecurOS/main/img/Showcase31.png">
+  <img src="https://raw.githubusercontent.com/Secur-OS/SecurOS/main/img/Showcase3.png">
 </p>
 
 </details>
