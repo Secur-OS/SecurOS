@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Install SecurOS
+Comment=Run the Arch Linux installer to install SecurOS to your disk
+Exec=konsole -e sudo archinstall
+Icon=/usr/share/securos/pfp.png
+Categories=System;Settings;
+Terminal=false

@@ -1,5 +1,6 @@
 NAME="SecurOS"
-PRETTY_NAME="SecurOS"
+PRETTY_NAME="SecurOS 2.0.0"
+VERSION_ID="2.0.0"
 ID=arch
 BUILD_ID=rolling
 ANSI_COLOR="38;2;23;147;209"
@@ -7,5 +8,5 @@ HOME_URL="https://securos.org/"
 DOCUMENTATION_URL="https://github.com/PhilipPanda/SecurOS/wiki"
 SUPPORT_URL="https://github.com/PhilipPanda/SecurOS"
 BUG_REPORT_URL="https://github.com/PhilipPanda/SecurOS/issues"
-PRIVACY_POLICY_URL="https://github.com/PhilipPanda/SecurOS/blob/main/LISENCE.md"
+PRIVACY_POLICY_URL="https://github.com/PhilipPanda/SecurOS/blob/main/LICENSE"
 LOGO=archlinux-logo

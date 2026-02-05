@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=SecurOS Desktop Setup
+Exec=/usr/share/securos/setup-live-desktop.sh
+Hidden=false
+NoDisplay=true
+X-GNOME-Autostart-enabled=true
+X-KDE-autostart-after=plasma-session

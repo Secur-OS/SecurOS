@@ -1,47 +1,60 @@
+# X11 / display
 xorg-server
 xorg
-xfce4
-xfce4-goodies
-kitty
+
+# KDE Plasma (replaces XFCE); Wayland session is in plasma-workspace (pulled by plasma-meta)
+plasma-meta
+konsole
+dolphin
+kate
+spectacle
 sddm
 plymouth
-nitrogen
-pcmanfm
-dunst
-picom
-qt5-quickcontrols2
-neofetch
+
+# Terminal & CLI
+kitty
+kitty-terminfo
+fish
+fastfetch
 htop
 flameshot
 mpv
 
+# Fonts
 ttf-firacode-nerd
 ttf-roboto-mono
 ttf-fira-mono
 wqy-zenhei
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
 
+# Browser & privacy
 firefox
 torbrowser-launcher
 tor
 
+# Editors & dev
 neovim
 emacs
 code
-
 git
 curl
 wget
-
 cmake
 base-devel
 jdk-openjdk
 nodejs
 python3
 zig
+rust
+go
 
+# Security / pentest / red team tools
 metasploit
 sqlmap
 wireshark-cli
+wireshark-qt
 hydra
 john
 aircrack-ng
@@ -50,24 +63,77 @@ reaver
 nikto
 zaproxy
 tcpdump
-gnu-netcat
+openbsd-netcat
 exploitdb
 hashcat
 mitmproxy
 wpscan
-wireshark-qt
 nethogs
+nmap
+gobuster
+binwalk
+radare2
+impacket
+rustscan
+masscan
+hexedit
 
+# CLI polish
+fzf
+ripgrep
+fd
+eza
+bat
+
+# Graphics & GPU drivers
+mesa
+vulkan-icd-loader
+vulkan-intel
+vulkan-radeon
+lib32-mesa
+lib32-vulkan-intel
+lib32-vulkan-radeon
+xf86-video-intel
+xf86-video-amdgpu
+xf86-video-vesa
+libva-intel-driver
+libva-mesa-driver
+vulkan-mesa-layers
+
+# Audio (modern stack + GUI)
+pipewire
+pipewire-pulse
+pipewire-jack
+wireplumber
 alsa-utils
+pavucontrol
+
+# Wi-Fi (NetworkManager + firmware in linux-firmware)
+networkmanager
+network-manager-applet
+iwd
+wpa_supplicant
+
+# Opsec & privacy
+mat2
+wipe
+
+# Firmware & drivers
 amd-ucode
+intel-ucode
+b43-fwcutter
+broadcom-wl
+linux-firmware
+linux-firmware-marvell
+sof-firmware
+
+# Base & install
 arch-install-scripts
 archinstall
-b43-fwcutter
 base
 bind
 bolt
 brltty
-broadcom-wl
 btrfs-progs
 clonezilla
 cloud-init
@@ -91,27 +157,23 @@ f2fs-tools
 fatresize
 foot-terminfo
 fsarchiver
-gnu-netcat
 gpart
 gpm
 gptfdisk
-grml-zsh-config
 grub
 gum
 hdparm
 hyperv
-intel-ucode
 irssi
+iw
+iwd
 jfsutils
-kitty-terminfo
 less
 lftp
 libfido2
 libusb-compat
 linux
 linux-atm
-linux-firmware
-linux-firmware-marvell
 livecd-sounds
 lsscsi
 lvm2
@@ -132,7 +194,6 @@ nbd
 ndisc6
 nfs-utils
 nilfs-utils
-nmap
 ntfs-3g
 nvme-cli
 open-iscsi
@@ -151,7 +212,6 @@ pv
 qemu-guest-agent
 refind
 reflector
-reiserfsprogs
 rp-pppoe
 rsync
 rxvt-unicode-terminfo
@@ -160,12 +220,10 @@ sdparm
 sequoia-sq
 sg3_utils
 smartmontools
-sof-firmware
 squashfs-tools
 sudo
 syslinux
 systemd-resolvconf
-tcpdump
 terminus-font
 testdisk
 tmux
@@ -178,18 +236,11 @@ usbutils
 vim
 virtualbox-guest-utils-nox
 vpnc
-wezterm-terminfo
-
-
 wireless-regdb
 wireless_tools
 wpa_supplicant
-iw
-iwd
-dialog
-
-
 wvdial
 xfsprogs
 xl2tpd
 zsh
+dialog
