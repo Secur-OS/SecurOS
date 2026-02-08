@@ -64,3 +64,8 @@ Simply boot the ISO and follow the on-screen options.
 </p>
 
 </details>
+
+## GENTOO
+## GENTOO
+## GENTOO
+## GENTOO LOVE LOEV GENTOO
