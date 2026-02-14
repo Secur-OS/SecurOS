@@ -1,0 +1,25 @@
+---
+componentName: securos
+
+strings:
+    productName:         SecurOS
+    shortProductName:    SecurOS
+    version:             1.0
+    shortVersion:        1.0
+    versionedName:       SecurOS 1.0
+    shortVersionedName:  SecurOS 1.0
+    bootloaderEntryName: SecurOS
+    productUrl:          https://securos.org
+    supportUrl:          https://templeenterprise.com
+
+images:
+    productLogo:         "logo.png"
+    productIcon:         "logo.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#1a1a1a"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#00FF00"

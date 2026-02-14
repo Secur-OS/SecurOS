@@ -25,5 +25,7 @@ file_permissions=(
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
+  ["/usr/local/bin/install-securos"]="0:0:755"
+  ["/usr/local/bin/enable-chaotic-aur"]="0:0:755"
   ["/usr/share/securos/setup-live-desktop.sh"]="0:0:755"
 )
