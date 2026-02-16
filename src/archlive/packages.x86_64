@@ -45,7 +45,7 @@ cmake
 base-devel
 jdk-openjdk
 nodejs
-python
+python3
 zig
 rust
 go
@@ -73,7 +73,7 @@ nmap
 gobuster
 binwalk
 radare2
-python-impacket
+impacket
 rustscan
 masscan
 hexedit
@@ -130,7 +130,6 @@ sof-firmware
 # Base & install
 arch-install-scripts
 archinstall
-calamares
 base
 bind
 bolt
