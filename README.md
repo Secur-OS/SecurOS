@@ -64,3 +64,9 @@ Simply boot the ISO and follow the on-screen options.
 </p>
 
 </details>
+
+---
+
+<p align="center">
+  Built by <a href="https://templeenterprise.com"><b>Temple Enterprise LLC</b></a>
+</p>
